@@ -1,0 +1,195 @@
+/* Header Section */
+
+$ban_pos: absolute;
+$ban_z: 2;
+$yt_coor_l: 88%;
+$yt_coor_b: 0%;
+
+.hp_banner {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.hp_banner_img {
+	position: $ban_pos;
+	z-index: 1;
+	width: 100%;
+	height: auto;
+	flex-shrink: 0;
+}
+
+.hp_banner_txt {
+	position: $ban_pos;
+	bottom: 77%;
+	left: 57%;
+	width: 100%;
+	z-index: $ban_z;
+}
+
+$hp_vid_w: 210px;
+$hp_vid_h: 350px;
+
+.hp_vid_con {
+	background-image: url("https://cdn.shopify.com/s/files/1/2130/4789/files/Pixel__smartphone__5_inch_silver_mock.png?18167452421184325559");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 220px !important;
+    height: 412px !important;
+    float: right;
+    margin-left: 30px;
+    z-index: 99;
+    left: 80% !important;
+}
+
+.iframe_con {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: $hp_vid_w;
+    height: $hp_vid_h;
+    margin: auto;
+    cursor: pointer;
+    position: relative;
+}
+
+iframe.hp_vid_yt {
+	position: relative;
+	z-index: 1 !important;
+    width: $hp_vid_w;
+    height: $hp_vid_h;
+}
+
+.ban-adb {
+  display: inline-block;
+  position:absolute;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  bottom: 5%;
+  z-index: $ban_z;
+}
+
+.ban-as {
+  left: 57%;
+}
+
+.ban-gp {
+  left: 67%;
+}
+
+/* Icon Section */
+
+.icfe_tit_con {
+	margin-left: auto;
+	margin-right: auto;
+  	text-align: center;
+  	margin-top: 2.5%;
+}
+
+.icfe_con {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.iorh_col {
+	vertical-align: middle;
+}
+
+.icon_col {
+	display: inline-block;
+  	margin-right: 2.5%;
+}
+
+.hm_phn_col {
+	display: inline-block;
+}
+
+.icon_con {
+	display: block;
+}
+
+.hm_icon {
+	height: 100px;
+	width: 100px;
+}
+
+.hm_phn_img {
+	width: 375px;
+	height: 667px;
+}
+
+.tit_rect {
+	height: 25px;
+	width: 125px;
+}
+
+.icon_sub,
+.icon_des {
+	width: 300px;
+	height: auto;
+}
+
+.icon_sub {
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.icon_des {
+	font-size: 8pt;
+}
+
+/* Section end */
+
+.tit_rect {
+	height: 2px;
+	width: 125px;
+  	background-color: #dcdcdc;
+  	margin: auto !important;
+}
+
+/* Tilt Section */
+
+.tilt_con {
+	text-align: center;
+}
+
+.tilt_pic,
+.tilt_img,
+.tilt_arrow,
+.tilt_text,
+.tilt_p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+$til_ar_br: 15px solid transparent;
+$til_ar_cl: 10px solid #5f3f98;
+
+.tilt_arrow{
+	width: 0px;
+	height: 0px;
+	border-top: $til_ar_br;
+	border-bottom: $til_ar_br;
+}
+
+.arrow_right {
+	border-left: $til_ar_cl;
+	margin-left: 5px;
+}
+
+.arrow_left {
+	border-right: $til_ar_cl;
+	margin-right: 5px;
+}
+
+.tilt_p {
+	position: relative;
+}
